@@ -31,7 +31,7 @@ The `Extraction Table.xlsx` file contains the following documentation:
     * Details the criteria used to calculate the score assigned to each secondary study when evaluating its primary sources.
     * Attributes used to assess the evaluations conducted by the authors (marked as yes (checked) or no (unchecked)):
       - Search string (Sear Str); 
-      - Research Question (Res Que); 
+      - Research Question (Res Que);
       - Objective (Obj); 
       - Inclusion/Exclusion Criteria (I/E Crit); 
       - Quality Assessment (Qlt Assessm).          
