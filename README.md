@@ -19,7 +19,7 @@ This repository includes the following resources:
 1.  Raw reference files (`.bib`): 
 The files in the `Raw Reference Files (2022)` and `Raw Reference Files (2023-2025)` folders provide complete bibliographic metadata exported directly from each database (Scopus, IEEE and ACM).
 
-*How ​​to use: They can be imported directly into reference managers such as Zotero, Mendeley, or EndNote, or into screening software like Rayyan.
+* How ​​to use: They can be imported directly into reference managers such as Zotero, Mendeley, or EndNote, or into screening software like Rayyan.
 
 2. Extraction table (`.xlsx`): 
 The `Extraction Table.xlsx` file contains the following documentation:
