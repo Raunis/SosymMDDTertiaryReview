@@ -16,27 +16,33 @@ Affiliation: Universidade Federal da Bahia¹, Universidade do Estado da Bahia².
 This repository includes the following resources:
 
 1.  Raw reference files (`.bib`)
-Os arquivos contidos na pasta `raw_bib/` contêm os metadados bibliográficos completos exportados diretamente de cada base de dados em **[Insira a Data da Busca]**.
-* **Campos incluídos:** `author`, `title`, `journal`, `year`, `abstract`, `keywords`, `doi`.
-* **Como utilizar:** Podem ser importados diretamente para gerenciadores de referências como Zotero, Mendeley, EndNote ou softwares de triagem como o Rayyan.
+The files in the `Raw Reference Files (2022)` and `Raw Reference Files (2023-2025)` folders provide complete bibliographic metadata exported directly from each database (Scopus, IEEE and ACM).
+*How ​​to use: They can be imported directly into reference managers such as Zotero, Mendeley, or EndNote, or into screening software like Rayyan.
 
+2. Extraction table (`.xlsx`)
+The `Extraction Table.xlsx` file contains the following documentation:
 
-2. Ontologia com todos os trechos que pudessem identificar autores removidos (Ontology.pdf)
-3. Metamodelo criado manualmente pelo especialista de domínio (SpecialistDiagram.pdf)
+  I. Identifier: Unique code or label assigned to each secondary study (ID).
 
-4. Este repositório contém os dados brutos (*raw files*), os critérios de triagem e a matriz de extração de dados utilizados na revisão terciária descrita acima.
+  II. Title: 
+    * Full title of the secondary study.
+  
+  III. Quality assessment score (Assesm):
+    * Details the criteria used to calculate the score assigned to each secondary study when evaluating its primary sources.
+    * Attributes used to assess the evaluations conducted by the authors (marked as yes (checked) or no (unchecked)):
+      - Search string (Sear Str); 
+      - Research Question (Res Que); 
+      - Objective (Obj); 
+      - Inclusion/Exclusion Criteria (I/E Crit); 
+      - Quality Assessment (Qlt Assessm).          
 
+  IV. Number of papers (primary sources):
+    * The total number of primary sources included in each secondary study.
 
-O repositório está organizado de forma a garantir a total reprodutibilidade do fluxo PRISMA adotado.
+  V. Year:
+    * Year in which the secondary study was published.
 
-```text
-├── data/
-│   ├── raw_bib/                     # Exportações brutas das bases de dados
-│   │   ├── pubmed_raw.bib           # Busca bruta do PubMed
-│   │   ├── scopus_raw.bib           # Busca bruta do Scopus
-│   │   └── wos_raw.bib              # Busca bruta da Web of Science
-│   └── processing_excel/            # Triagem, gerenciamento e extração de dados
-│       ├── 1_all_merged_duplicates.xlsx   # Todos os registros unificados + controle de duplicatas
-│       ├── 2_screening_phase.xlsx         # Registros avaliados por Título/Resumo (Inclusos/Exclusos)
-│       └── 3_data_extraction_matrix.xlsx  # Matriz final de extração das revisões incluídas
-```
+  VI. Distribution of studies by:
+    * Phase: Indicates which stages of the MDD development lifecycle are covered.
+    * Artifacts: Specifies the types of artifacts analyzed or discussed.
+    * Domain: Identifies the application domain or field addressed by the secondary study.
